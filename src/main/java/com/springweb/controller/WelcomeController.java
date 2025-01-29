@@ -26,6 +26,7 @@ public class WelcomeController {
 	@ResponseBody
 	public String pathVar(@PathVariable(name = "id") int id) {
 		System.out.println("WelcomeController  pathVar()   " + id);
+	System.out.println("i am yuvraj ");
 		return "This is my response to client that your id is: "+id;
 	}
 
