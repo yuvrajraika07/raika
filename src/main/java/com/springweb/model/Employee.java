@@ -2,6 +2,7 @@ package com.springweb.model;
 
 public class Employee {
     private String name;
+    private String email;
     private String password;
   
     // Getters and Setters
@@ -20,7 +21,15 @@ public class Employee {
 	}
 
 	public void setPassword(String password) {
-		password = password;
+		this.password = password;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	
